@@ -1,0 +1,70 @@
+/**  ENCABEZADO */
+
+#bx_inicio {
+    /** tambien es el logo de la web*/
+    width:100px;
+    height:100px;
+}
+
+h1 {
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+#bx_foto_alumno {
+    margin-left: 30px;
+    width:100px;
+    height:100px;
+}
+
+
+/**   BARRA DE NAVEGACION   */
+body {    /** color del fondo de pagina*/
+    background-color: #f8f8f8;  /** fondo de pagina gris claro*/
+  }
+  
+  a:link,a:visited {
+    text-decoration: none;    /**quita el subrayado*/
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;       /**color negro letras enlace*/
+  }
+  
+  #barNav {       /** box rojo de afuera, id*/
+    width: 740px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background: #70f74a;
+    height: 32px;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  #contEnlaces {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 16px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+  }
+  
+  a.barNavEnlace {    /** box de presentacion del enlace, metodo de a*/
+      margin-right: 20px;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #666666;
+    font-size: 25px;
+  }
+  
+  a#ultimoEnlace {    /**ultimo enlace de a, anidado, quita borde a la derecha del ultimo enlace*/
+    border-right: none;
+  }
+  
+  a.barNavEnlace:hover {
+    background: gold;
+  }
+
